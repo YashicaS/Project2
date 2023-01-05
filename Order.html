@@ -38,21 +38,21 @@
             <div class="titformitems">
                 Donut Delivery</div>
 
-            <form class="form">
+            <form class="form" method="POST" netlify>
                 <div class="formitems">
-                    <label for="Place">Address delivered to</label>
-                    <input type="Address delivered to" placeholder="Enter your Address">
+                    <label for="Place" >Address delivered to</label>
+                    <input type="text" name="Addres" placeholder="Enter your Address">
                 </div>
 
                 <div class="formitems">
                     <label for="Donut">What donut do you want</label>
-                    <input type="Donut" placeholder="Enter your Donut Flavors">
+                    <input type="text" name="Donut_Flavor" placeholder="Enter your Donut Flavors">
                 </div>
 
                 <div class="formitems">
                     <label for="Bakery">Have you ever been here before</label>
 
-                    <select>
+                    <select name="Bakery_Value">
                         <option Value="A">Yes </option>
                         <option Value="B">NO</option>
 
@@ -61,7 +61,7 @@
                     <div class="formitems">
                         <label for="Drink">Do you want Icecream</label>
     
-                        <select>
+                        <select name="Drink_Value">
                             <option Value="A">Yes </option>
                             <option Value="B">NO</option>
     
@@ -70,7 +70,7 @@
                     <div class="formitems">
                         <label for="Drink">Icecream Items (Limited Items)</label>
 
-                        <select>
+                        <select name="Icecream_Value">
                             <option Value="A">Mango</option>
                             <option Value="B">Stawberry</option>
                             <option Value="C">Cookies N Creme</option>
@@ -82,7 +82,7 @@
                         <div class="formitems">
                             <label for="Topping"> Toppings</label>
     
-                            <select>
+                            <select name="Topping_Value">
                                 <option Value="A">Chocolate</option>
                                 <option Value="B">Sprinkle</option>
                                 <option Value="C">Candy </option>
