@@ -108,7 +108,7 @@ header {
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
 
-.image:hover{
+.image:hover {
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 
 }
@@ -124,6 +124,10 @@ header {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+
+
+
 
 
 
@@ -183,13 +187,21 @@ header {
 }
 
 .sales {
-  background: url(https://media.istockphoto.com/id/945663596/photo/texture-of-blue-paper.jpg?b=1&s=612x612&w=0&k=20&c=6buLks5EMhZeWVjl_FIowRaq_eMVQj6g6UqgW2nnZEo=);
+  background: url(https://media.istockphoto.com/id/1411157699/vector/hand-drawn-mochi-donuts-set-isolated-vector-illustration-on-white-background.jpg?s=612x612&w=0&k=20&c=q1WNNZgIvBm0gbL0lP98KHDtyJPZyBjgvX02t-2VT7Y=);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   padding-top: 1.5rem;
 }
+
+.sales img {
+  height: 80%;
+  width: 30%;
+
+}
+
+
 
 .Form_Section {
   display: flex;
@@ -213,6 +225,10 @@ header {
   flex-direction: column;
   gap: 0.3rem;
 }
+
+
+
+
 
 .menu {
   background-color: rgb(251, 126, 234);
@@ -240,6 +256,7 @@ header {
 }
 
 
+
 .video iframe {
   height: 250px;
   width: 350px;
@@ -257,13 +274,11 @@ header {
 
 .carousel img {
   padding: 1rem;
-  height: 800px !important; 
+  height: 800px !important;
   width: 100%;
 
 }
 
-.color{
+.color {
   color: rgb(63, 0, 122);
 }
-
-
